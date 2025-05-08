@@ -8,7 +8,7 @@
 > The ultimate React + TypeScript dashboard boilerplate with all the bells & whistles.  
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/19d9loGlm1s1oDC5pgK3KMNJB0nvVoikQ/view?usp=sharing" alt="ReactDashKit Screenshot" width="100%" />
+  <img src="https://drive.google.com/uc?export=view&id=19d9loGlm1s1oDC5pgK3KMNJB0nvVoikQ" alt="ReactDashKit Screenshot" width="100%" />
 </p>
 
 ---
@@ -92,14 +92,6 @@ npm run format
 ```
 
 This ensures your code stays clean and consistent.
-
----
-
-## 🖼️ UI Preview
-
-<p align="center">
-  <img src="./c74d4cb3-2dde-4310-818b-e3d058d971fa.png" width="90%" alt="Dashboard UI Preview" />
-</p>
 
 ---
 
