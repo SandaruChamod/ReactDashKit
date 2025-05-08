@@ -1,0 +1,77 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+}
+
+#root {
+  height: 100vh;
+  @include flex-column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+
+  &-track {
+    background: transparent;
+  }
+
+  &-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+
+    &:hover {
+      background: #94a3b8;
+    }
+  }
+}
+
+.fade {
+  &-enter {
+    opacity: 0;
+    transform: translateY(8px);
+
+    &-active {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 200ms ease-out, transform 200ms ease-out;
+    }
+  }
+
+  &-exit {
+    opacity: 1;
+    transform: translateY(0);
+
+    &-active {
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 200ms ease-out, transform 200ms ease-out;
+    }
+  }
+}
+
+// Smooth transitions
+button,
+a,
+input,
+select {
+  @include transition-base;
+}
+
+// Better focus styles
+*:focus-visible {
+  outline: 2px solid $color-primary;
+  outline-offset: 2px;
+}
