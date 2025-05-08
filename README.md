@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1LYYhuCTsZ7ZFkc0nWA7-j4iFOAfdXf38/view?usp=sharing" width="120" alt="ReactDashKit Logo" />
+  <img src="https://drive.google.com/uc?export=view&id=1LYYhuCTsZ7ZFkc0nWA7-j4iFOAfdXf38" width="120" alt="ReactDashKit Logo" />
 </p>
 
 # 🚀 ReactDashKit
