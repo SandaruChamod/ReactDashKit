@@ -97,8 +97,8 @@ This ensures your code stays clean and consistent.
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [Your Name]  
-🔗 [your-portfolio-or-github-link]
+Made with ❤️ by Sandaru Kalapuge
+🔗 https://github.com/SandaruChamod
 
 ---
 
