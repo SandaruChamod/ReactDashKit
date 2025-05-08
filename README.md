@@ -1,9 +1,7 @@
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=15qjP4SsHZL9wb9X3-9LSKUXn2mDof436" width="320" alt="ReactDashKit Logo" />
+  <img src="https://drive.google.com/uc?export=view&id=16M3lPmhqVYkGayGXqPm4_N39FKBVPYdM" width="320" alt="ReactDashKit Logo" />
 </p>
-
-# 🚀 ReactDashKit
 
 > The ultimate React + TypeScript dashboard boilerplate with all the bells & whistles.  
 
